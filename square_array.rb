@@ -1,4 +1,5 @@
 def square_array(numbers)
-  numbers.each do { |num| num ** 2 }
+  array =[]
+  array.map(numbers.each do { |num| num ** 2 })
 end
 
